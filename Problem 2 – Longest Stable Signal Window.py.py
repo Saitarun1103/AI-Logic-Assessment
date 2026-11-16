@@ -7,7 +7,8 @@ def longest_stable_window():
     input_data = sys.stdin.read().split()
     if not input_data:
         return
-        
+
+    
     n = int(input_data[0])
     # Extract exactly n signal values
     nums = [int(x) for x in input_data[1:n+1]]
